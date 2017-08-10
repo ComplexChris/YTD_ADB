@@ -1,0 +1,19 @@
+FAQ for YTD_ADB.py v.4.2.1
+
+Q: What does this program do, exactly?
+A: Simple.
+   Short: Automatically Downloads and Syncs playlist(s)
+   Long: The User enters their Youtube playlist(s) URL into the "Settings.txt" file,
+   and the program will run in the background, downloading all files in that
+   playlist and syncing them to a connected Android device.
+   
+Q: I don't understand how to add my own playlist.
+A: Open the "Settings.txt" and fill out the field "URL".
+   Look at "SettingsHelp.txt" for further help.
+
+Q: How long did it take to write/devolop this program?
+A: About 3 weeks.
+
+Q: How do I get the ADB to work?
+A: Ensure you have the ADB client, and that your device drivers are installed on your computer, then,
+   On your device, enable "Devoloper Options", and tick "USB Debugging."
