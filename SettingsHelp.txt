@@ -1,0 +1,20 @@
+Note: Only change values and ensure are correct type 
+
+--Example file only --
+
+{
+"MyMusic" : str( Path to Directory ) ,
+
+"Buffer" : int( Max download file size in bytes ),
+
+"Refresh" : int( Interval in seconds to check for new downloads/songs
+            [Lower the number, more frequent it'll sync, but higher memory consumption ),
+                            
+"URL" : list( Full URL link to specified playlist. Must remain within
+              list brackets, and in string format seperated by commas ),
+                        
+"IP" : str( Local IP adress of Android device. Must be on same wireless network
+            and device must be configured properly,
+                      
+"IP_Port" : int ( Port to which TCPIP Daemon listens on
+}
